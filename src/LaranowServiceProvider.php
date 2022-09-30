@@ -2,9 +2,9 @@
 
 namespace JakyeRU\Laranow;
 
+use JakyeRU\Laranow\Commands\LaranowCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use JakyeRU\Laranow\Commands\LaranowCommand;
 
 class LaranowServiceProvider extends PackageServiceProvider
 {
